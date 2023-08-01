@@ -1,0 +1,587 @@
+@import 'config';
+
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
+.banner{
+    .banner_img{
+        width: 100%;
+        position: relative;
+        img{
+            object-fit: cover;
+            height: 500px;
+            width: 100%;
+            }
+    }
+    .banner_info{
+        text-align: end;
+        position: absolute;
+        top: 145px;
+        right: 100px;
+        width: 31%;
+        color: rgb(252, 252, 252);
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+    }
+    .property-images{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 10px;
+        figure{
+            width: 50%;
+        }
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+.design{
+    h2{
+        text-align: center;
+        font-size: 3.5rem;
+        padding-block: 25px;
+    }
+    .dream-house{
+        display: flex;
+        .dream-house__img{
+        width: 50%;
+        img{
+            object-fit: cover;
+            height: 600px;
+            width: 100%;
+        }
+        }
+        .dream-house_info{
+            width: 50%;
+            padding-inline: 50px;
+            background-color: rgb(43,49,41);
+            color: rgb(152,154,58);
+            h3{
+                line-height: 4rem;
+                padding-top: 100px;
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.5rem;
+                line-height: 3rem;
+            }
+            a{
+                font-size: 1.5rem;
+                color: rgb(152,154,58);
+            }
+            }
+    }
+    .design-challange{
+        padding-block: 80px;
+        color: green;
+        h2{
+            font-size: 3.5rem;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 2rem;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+.what-we-do{
+    .what-we-do-content{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background-color: rgb(192,148,51);
+        .what-we-do-content__info{
+            width: 50%;
+            color: green;
+            background-color: white;
+            h3{
+                padding-inline: 20px;
+                padding-block: 150px 25px;
+                font-size: 2rem;
+            }
+            p{
+                padding-inline: 25px;
+                font-size: 1rem;
+                line-height: 2rem;
+                padding-bottom: 15px;
+            }
+            a{
+                padding-inline-start: 25px;
+                color: green;
+            }
+        }
+        .what-we-do-content__images{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 50%;
+            figure{
+                width: 50%;
+                img{
+                    object-fit: cover;
+                    height: 250px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.about-us__logos{
+    height: 150px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: rgb(51, 66, 29);
+    i{
+        font-size: 2.5rem;
+    }
+}
+.about-us__info{
+    text-align: justify;
+    background-color: whitesmoke;
+    padding: 80px 50px;
+    p{
+        font-size: 2.5rem;
+    }
+}
+.address-content{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    #{&}_info{
+        text-align: center;
+        padding-block: 130px 50px;
+        width: 50%;
+        p{
+            line-height: 4rem;
+            color: gold;
+        }
+    }
+    #{&}__img{
+        width: 50%;
+        img{
+            width: 100%;
+            padding-top: 50px;
+        }
+    }
+}
+.worked-project{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.reviews{
+    h2{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .review-box{
+        display: flex;
+        width: 100%;
+        padding: 50px 100px;
+        .review-box__img{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        .review-box__info{
+            width: 50%;
+            padding-left: 50px;
+            background-color: rgb(43,49,41);
+            color: rgb(152,154,58);
+            img{
+                margin-block: 50px;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+            h3{
+                font-size: 2rem;
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 1.5rem;
+                line-height: 2rem;
+                width: 75%;
+            }
+        }
+    }
+}
+.learn-more{
+    background-color: rgb(240, 246, 239);
+    h3{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    p{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 75%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    #{&}__btn{
+        color: green;
+        border: 2px solid green;
+        padding: 15px 30px;
+        margin-left: 44%;
+        margin-bottom: 25px;
+    }
+}
+footer{
+    background-color: rgb(51, 66, 29);
+    .other-links{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        a{
+            padding-top: 50px;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .social{
+        padding-block: 50px;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        i{
+            padding-inline: 25px;
+        }
+    }
+    .sample-text{
+        color: white;
+        width: 80%;
+        margin: auto;
+        padding-block: 50px 80px;
+    }
+}
+/*media queries*/
+@include media-sm{
+    .banner{
+        padding-inline: 16px;
+    }
+    .banner .banner_info {
+        top: 200px;
+        right: 25px;
+        width: 80%;
+        h1{
+            font-size: 2rem;
+            width: 235px;
+        }
+    }
+    .design{
+        padding-inline: 16px;
+        h2{
+            font-size: 2rem;
+        }
+        .dream-house{
+            flex-direction: column;
+            .dream-house__img{
+                width: 100%;
+                img{
+                    height: 300px;
+                }
+            }
+            .dream-house_info{
+                width: 100%;
+                padding-inline: 10px;
+                h3{
+                    font-size: 2rem;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .design-challange{
+            padding-block: 10px;
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                width: 100%;
+            }
+        }
+    }
+    .what-we-do{
+        padding-inline: 16px;
+        #{&}-content{
+            flex-direction: column;
+            .what-we-do-content__info{
+                width: 100%;
+                padding-block: 0px 10px;
+                h3{
+                    padding-top: 50px;
+                }
+                p{
+                    padding-inline: 0;
+                }
+            }
+            .what-we-do-content__images {
+                width: 100%;
+            }
+        }
+    }
+    .about-us{
+        padding-inline: 16px;
+        .about-us__info{
+            padding: 10px 0;
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .address{
+        padding-inline: 16px;
+        .address-content{
+            flex-direction: column;
+            .address-content_info {
+                width: 100%;
+                p{
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+            .address-content__img{
+                padding-top: 10px;
+                width: 100%;
+                img{
+                    padding-top: 0;
+                }
+            } 
+        }
+    }
+    .worked-project{
+        padding-inline: 16px;
+    }
+    .reviews{
+        padding-inline: 16px;
+        h2{
+            font-size: 2rem;
+        }
+        .review-box{
+            flex-direction: column;
+            padding: 0;
+            .review-box__img{
+                width: 100%;
+            }
+            .review-box__info{
+                width: 100%;
+                padding-inline: 5px;
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .learn-more{
+        padding-inline: 16px;
+        h3{
+            font-size: 2rem;
+            padding-top: 10px;
+        }
+        .learn-more__btn {
+            margin-left: 21%;
+        }
+    }
+    footer{
+        padding-inline: 16px;
+        .other-links{
+            font-size: 2rem;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding-top: 25px;
+            a{
+                padding-top: 0;
+            }
+        }
+    
+    }
+}
+
+@include media-md{
+    .container{
+        padding-inline: 16px;
+    }
+    .banner{
+        .banner_info{
+            top: 350px;
+            right: 60px;
+            width: 50%;
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+    .design{
+        h2{
+            font-size: 2.5rem;
+        }
+        .dream-house{
+            .dream-house__img{
+                img{
+                    height: 480px;
+                }
+            }
+            .dream-house_info{
+                h3{
+                    padding-top: 50px;
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+        .design-challange{
+            padding-block: 25px;
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .what-we-do{
+        .what-we-do-content{
+            .what-we-do-content__info{
+                h3{
+                    padding-block: 70px 25px;
+                }
+            }
+        }
+    }
+    .about-us{
+        .about-us__info{
+            p{
+                font-size:1.5rem;
+                line-height:2rem
+            }
+        }
+    }
+    .address-content{
+        padding-bottom: 0px;
+    }
+    .reviews{
+        h2{
+            font-size: 2.5rem;
+        }
+        .review-box{
+            padding: 0;
+            .review-box__img{
+                img{
+                    object-fit: cover;
+                    height: 550px;
+                }
+            }
+            .review-box__info{
+                padding-inline: 10px;
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    footer{
+        .other-links{
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+    }
+}
+@include media-lr{
+    .container{
+        padding-inline: 20px;
+    }
+    .banner{
+        .banner_info{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+    .design{
+        h2{
+            font-size: 2.5rem;
+        }
+        .dream-house{
+            height: 600px;
+            .dream-house_info{
+                padding-inline: 10px;
+                h3{
+                    padding-top: 50px;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        .design-challange{
+            padding-block: 25px;
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .what-we-do {
+        .what-we-do-content{
+            .what-we-do-content__info{
+                h3{
+                    padding-block: 100px 50px;
+                }
+            }
+        } 
+    }
+    .about-us{
+        .about-us__info{
+            p{
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+        }
+    }
+    .address{
+        .address-content{
+            .address-content_info{
+                text-align: center;
+            }
+        }
+    }
+    .reviews{
+        h2{
+            font-size: 2.5rem;
+        }
+        .review-box{
+            .review-box__img{
+                img{
+                    height: 500px;
+                }
+            }
+            .review-box__info{
+                padding-inline: 10px;
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

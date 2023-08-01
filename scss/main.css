@@ -1,0 +1,549 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1350px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.banner .banner_img {
+  width: 100%;
+  position: relative;
+}
+.banner .banner_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.banner .banner_info {
+  text-align: end;
+  position: absolute;
+  top: 145px;
+  right: 100px;
+  width: 31%;
+  color: rgb(252, 252, 252);
+}
+.banner .banner_info h1 {
+  font-size: 4rem;
+}
+.banner .banner_info p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.banner .property-images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.banner .property-images figure {
+  width: 50%;
+}
+.banner .property-images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.design h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding-block: 25px;
+}
+.design .dream-house {
+  display: flex;
+}
+.design .dream-house .dream-house__img {
+  width: 50%;
+}
+.design .dream-house .dream-house__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 600px;
+  width: 100%;
+}
+.design .dream-house .dream-house_info {
+  width: 50%;
+  padding-inline: 50px;
+  background-color: rgb(43, 49, 41);
+  color: rgb(152, 154, 58);
+}
+.design .dream-house .dream-house_info h3 {
+  line-height: 4rem;
+  padding-top: 100px;
+  font-size: 3rem;
+}
+.design .dream-house .dream-house_info p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.design .dream-house .dream-house_info a {
+  font-size: 1.5rem;
+  color: rgb(152, 154, 58);
+}
+.design .design-challange {
+  padding-block: 80px;
+  color: green;
+}
+.design .design-challange h2 {
+  font-size: 3.5rem;
+}
+.design .design-challange p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.what-we-do .what-we-do-content {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(192, 148, 51);
+}
+.what-we-do .what-we-do-content .what-we-do-content__info {
+  width: 50%;
+  color: green;
+  background-color: white;
+}
+.what-we-do .what-we-do-content .what-we-do-content__info h3 {
+  padding-inline: 20px;
+  padding-block: 150px 25px;
+  font-size: 2rem;
+}
+.what-we-do .what-we-do-content .what-we-do-content__info p {
+  padding-inline: 25px;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 15px;
+}
+.what-we-do .what-we-do-content .what-we-do-content__info a {
+  padding-inline-start: 25px;
+  color: green;
+}
+.what-we-do .what-we-do-content .what-we-do-content__images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.what-we-do .what-we-do-content .what-we-do-content__images figure {
+  width: 50%;
+}
+.what-we-do .what-we-do-content .what-we-do-content__images figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.about-us__logos {
+  height: 150px;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  background-color: rgb(51, 66, 29);
+}
+.about-us__logos i {
+  font-size: 2.5rem;
+}
+
+.about-us__info {
+  text-align: justify;
+  background-color: whitesmoke;
+  padding: 80px 50px;
+}
+.about-us__info p {
+  font-size: 2.5rem;
+}
+
+.address-content {
+  display: flex;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.address-content .address-content_info {
+  text-align: center;
+  padding-block: 130px 50px;
+  width: 50%;
+}
+.address-content .address-content_info p {
+  line-height: 4rem;
+  color: gold;
+}
+.address-content .address-content__img {
+  width: 50%;
+}
+.address-content .address-content__img img {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.worked-project {
+  width: 100%;
+}
+.worked-project img {
+  width: 100%;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.reviews .review-box {
+  display: flex;
+  width: 100%;
+  padding: 50px 100px;
+}
+.reviews .review-box .review-box__img {
+  width: 50%;
+}
+.reviews .review-box .review-box__img img {
+  width: 100%;
+}
+.reviews .review-box .review-box__info {
+  width: 50%;
+  padding-left: 50px;
+  background-color: rgb(43, 49, 41);
+  color: rgb(152, 154, 58);
+}
+.reviews .review-box .review-box__info img {
+  margin-block: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.reviews .review-box .review-box__info h3 {
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+.reviews .review-box .review-box__info p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 75%;
+}
+
+.learn-more {
+  background-color: rgb(240, 246, 239);
+}
+.learn-more h3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.learn-more p {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 75%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.learn-more .learn-more__btn {
+  color: green;
+  border: 2px solid green;
+  padding: 15px 30px;
+  margin-left: 44%;
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: rgb(51, 66, 29);
+}
+footer .other-links {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+footer .other-links a {
+  padding-top: 50px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+footer .social {
+  padding-block: 50px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+footer .social i {
+  padding-inline: 25px;
+}
+footer .sample-text {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-block: 50px 80px;
+}
+
+/*media queries*/
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .banner {
+    padding-inline: 16px;
+  }
+  .banner .banner_info {
+    top: 200px;
+    right: 25px;
+    width: 80%;
+  }
+  .banner .banner_info h1 {
+    font-size: 2rem;
+    width: 235px;
+  }
+  .design {
+    padding-inline: 16px;
+  }
+  .design h2 {
+    font-size: 2rem;
+  }
+  .design .dream-house {
+    flex-direction: column;
+  }
+  .design .dream-house .dream-house__img {
+    width: 100%;
+  }
+  .design .dream-house .dream-house__img img {
+    height: 300px;
+  }
+  .design .dream-house .dream-house_info {
+    width: 100%;
+    padding-inline: 10px;
+  }
+  .design .dream-house .dream-house_info h3 {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+  .design .design-challange {
+    padding-block: 10px;
+  }
+  .design .design-challange h2 {
+    font-size: 2rem;
+  }
+  .design .design-challange p {
+    width: 100%;
+  }
+  .what-we-do {
+    padding-inline: 16px;
+  }
+  .what-we-do .what-we-do-content {
+    flex-direction: column;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__info {
+    width: 100%;
+    padding-block: 0px 10px;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__info h3 {
+    padding-top: 50px;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__info p {
+    padding-inline: 0;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__images {
+    width: 100%;
+  }
+  .about-us {
+    padding-inline: 16px;
+  }
+  .about-us .about-us__info {
+    padding: 10px 0;
+  }
+  .about-us .about-us__info p {
+    font-size: 1.5rem;
+  }
+  .address {
+    padding-inline: 16px;
+  }
+  .address .address-content {
+    flex-direction: column;
+  }
+  .address .address-content .address-content_info {
+    width: 100%;
+  }
+  .address .address-content .address-content_info p {
+    margin: auto;
+    text-align: center;
+  }
+  .address .address-content .address-content__img {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .address .address-content .address-content__img img {
+    padding-top: 0;
+  }
+  .worked-project {
+    padding-inline: 16px;
+  }
+  .reviews {
+    padding-inline: 16px;
+  }
+  .reviews h2 {
+    font-size: 2rem;
+  }
+  .reviews .review-box {
+    flex-direction: column;
+    padding: 0;
+  }
+  .reviews .review-box .review-box__img {
+    width: 100%;
+  }
+  .reviews .review-box .review-box__info {
+    width: 100%;
+    padding-inline: 5px;
+  }
+  .reviews .review-box .review-box__info p {
+    width: 100%;
+  }
+  .learn-more {
+    padding-inline: 16px;
+  }
+  .learn-more h3 {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+  .learn-more .learn-more__btn {
+    margin-left: 21%;
+  }
+  footer {
+    padding-inline: 16px;
+  }
+  footer .other-links {
+    font-size: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 25px;
+  }
+  footer .other-links a {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    padding-inline: 16px;
+  }
+  .banner .banner_info {
+    top: 350px;
+    right: 60px;
+    width: 50%;
+  }
+  .banner .banner_info h1 {
+    font-size: 2rem;
+  }
+  .design h2 {
+    font-size: 2.5rem;
+  }
+  .design .dream-house .dream-house__img img {
+    height: 480px;
+  }
+  .design .dream-house .dream-house_info h3 {
+    padding-top: 50px;
+    font-size: 2rem;
+  }
+  .design .dream-house .dream-house_info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .design .design-challange {
+    padding-block: 25px;
+  }
+  .design .design-challange h2 {
+    font-size: 2.5rem;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__info h3 {
+    padding-block: 70px 25px;
+  }
+  .about-us .about-us__info p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .address-content {
+    padding-bottom: 0px;
+  }
+  .reviews h2 {
+    font-size: 2.5rem;
+  }
+  .reviews .review-box {
+    padding: 0;
+  }
+  .reviews .review-box .review-box__img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 550px;
+  }
+  .reviews .review-box .review-box__info {
+    padding-inline: 10px;
+  }
+  .reviews .review-box .review-box__info p {
+    width: 100%;
+  }
+  footer .other-links {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .banner .banner_info h1 {
+    font-size: 3rem;
+  }
+  .design h2 {
+    font-size: 2.5rem;
+  }
+  .design .dream-house {
+    height: 600px;
+  }
+  .design .dream-house .dream-house_info {
+    padding-inline: 10px;
+  }
+  .design .dream-house .dream-house_info h3 {
+    padding-top: 50px;
+    font-size: 2.5rem;
+  }
+  .design .design-challange {
+    padding-block: 25px;
+  }
+  .design .design-challange h2 {
+    font-size: 2.5rem;
+  }
+  .what-we-do .what-we-do-content .what-we-do-content__info h3 {
+    padding-block: 100px 50px;
+  }
+  .about-us .about-us__info p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .address .address-content .address-content_info {
+    text-align: center;
+  }
+  .reviews h2 {
+    font-size: 2.5rem;
+  }
+  .reviews .review-box .review-box__img img {
+    height: 500px;
+  }
+  .reviews .review-box .review-box__info {
+    padding-inline: 10px;
+  }
+  .reviews .review-box .review-box__info p {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
