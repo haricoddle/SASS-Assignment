@@ -183,7 +183,7 @@
 }
 .address-content .address-content_info {
   text-align: center;
-  padding-block: 130px 50px;
+  padding-block: 80px 50px;
   width: 50%;
 }
 .address-content .address-content_info p {
@@ -439,7 +439,7 @@ footer .sample-text {
     padding-inline: 16px;
   }
   .banner .banner_info {
-    top: 350px;
+    top: 325px;
     right: 60px;
     width: 50%;
   }
