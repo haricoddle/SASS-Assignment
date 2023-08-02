@@ -21,6 +21,9 @@
   color: black;
   font-size: 1.5rem;
 }
+.navbar i {
+  font-size: 1rem;
+}
 
 .banner .banner_img {
   width: 100%;
