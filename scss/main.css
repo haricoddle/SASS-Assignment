@@ -48,6 +48,7 @@
   font-size: 1.5rem;
 }
 .banner .property-images {
+  background-color: rgb(51, 66, 29);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -62,6 +63,7 @@
 }
 
 .design h2 {
+  color: rgb(106, 132, 71);
   text-align: center;
   font-size: 1.8rem;
 }
@@ -92,6 +94,7 @@
 }
 .design .design-challange {
   padding-block: 50px;
+  color: rgb(55, 70, 35);
 }
 .design .design-challange h2 {
   font-size: 1.8rem;
@@ -114,6 +117,7 @@
   text-align: center;
 }
 .what-we-do .what-we-do-content__info {
+  color: rgb(46, 58, 29);
   background-color: white;
   padding-inline: 10px;
 }
@@ -146,11 +150,13 @@
   padding-bottom: 25px;
 }
 .about-us__logos {
+  background-color: rgb(51, 66, 29);
   height: 80px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding-left: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 1.5rem;
+  justify-content: space-evenly;
 }
 .about-us__info {
   text-align: center;
@@ -168,6 +174,7 @@
 }
 .address .address-content_info {
   line-height: 2rem;
+  color: rgb(107, 111, 98);
 }
 .address .address-content_img {
   width: 100%;
@@ -189,6 +196,7 @@
 }
 
 .reviews h2 {
+  color: rgb(106, 132, 71);
   padding-block: 15px;
   text-align: center;
   font-size: 1.8rem;
@@ -227,18 +235,21 @@
 
 .learn-more {
   text-align: center;
-  padding-block: 25px;
 }
-.learn-more h3 {
+.learn-more .learn-more-content {
+  background-color: rgb(240, 246, 239);
+}
+.learn-more .learn-more-content h3 {
   font-size: 1.5rem;
   color: black;
 }
-.learn-more p {
+.learn-more .learn-more-content p {
   color: grey;
 }
-.learn-more_btn {
-  padding: 10px 20px;
+.learn-more .learn-more-content .learn-more_btn {
+  padding: 10px 30px;
   border: 2px solid rgb(51, 66, 29);
+  margin-bottom: 20px;
 }
 
 footer {
